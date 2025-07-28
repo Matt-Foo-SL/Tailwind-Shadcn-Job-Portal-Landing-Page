@@ -81,7 +81,7 @@ export default function App() {
                 <MyCarousel />
                 {/* 2 colored cards */}
                 <div className="flex flex-col md:flex-row w-full mt-11 gap-4">
-                    <div className="flex flex-col  relative bg-[url('shoes-col.png')] bg-cover bg-center md:bg-right h-98 w-full rounded-3xl md:bg-[url('shoes-row.png')] md:max-h-96">
+                    <div className="flex flex-col  relative bg-[url('./assets/shoes-col.png')] bg-cover bg-center md:bg-right h-98 w-full rounded-3xl md:bg-[url('./assets/shoes-row.png')] md:max-h-96">
                         <div className="absolute top-0 left-10 grow  md:top-10">
                             <p className="text-2xl text-left font-semibold mt-5">
                                 Looking for the right role?
